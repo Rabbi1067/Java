@@ -179,3 +179,31 @@ public class Main {
 
         }
     }
+
+public class Rectangle {
+    double length;
+    double width;
+}
+
+public class Empoloyee {
+    String name;
+    int id;
+    double salary;
+}
+
+public class Circle {
+    double radius;
+}
+
+public class Car {
+    String brand;
+    String model;
+    int year;
+}
+
+public class Student {
+    String name;
+    int rollNumber;
+    String program;
+    String batch;
+}
