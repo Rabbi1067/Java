@@ -90,24 +90,30 @@ public class Student {
     //Getter method
     public String getName(){
         return name;
-    }public String getProgram(){
+    }
+    public String getProgram(){
         return program;
-    }public int  getId(){
+    }
+    public int  getId(){
         return id;
-    }public int getBatch(){
+    }
+    public int getBatch(){
         return batch;
     }
     //Setter method
     public void setName(String name){
         if(name.length()<3) System.out.println("Invalid Name");
         else this.name =name;
-        }    public void setProgram(String program){
+        }   
+    public void setProgram(String program){
         if(program.length()<2) System.out.println("Invalid Program");
         else this.program =program;
-        }    public void setId(int id){
+        }   
+    public void setId(int id){
         if(id<=0) System.out.println("Invalid ID");
         else this.id =id;
-        }    public void setBatch(int batch){
+        }   
+    public void setBatch(int batch){
         if(batch<=0) System.out.println("Invalid Batch");
         else this.batch =batch;
         }
