@@ -3,8 +3,6 @@ Follow the previous assignments and update the projects to the following:
 *. Write a default constructor
 *. Write at least 3 parameterized constructors for each class
 */
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
     Student s1=new Student();
@@ -46,8 +44,6 @@ public class Student {
 *. Use setter methods to create the same objects
 *. Use necessary getter methods to print those objects
 */
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
     Student s1=new Student();
