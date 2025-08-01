@@ -22,17 +22,20 @@ public class Student {
     int batch;
     public Student(){
         this.name="Rabbi";
-    } public Student(int id){
+    }
+    public Student(int id){
         this.id=id;
         this.name="moto";
 
-    } public Student(String name,int id){
+    } 
+    public Student(String name,int id){
         this.name=name;
         this.id=id;
         this.batch=65;
         this.program="EEE";
 
-    } public Student(String name,int id,int batch){
+    } 
+    public Student(String name,int id,int batch){
         this.name=name;
         this.id=id;
         this.batch=batch;
