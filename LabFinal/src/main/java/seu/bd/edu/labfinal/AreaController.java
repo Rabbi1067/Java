@@ -32,6 +32,12 @@ public class AreaController {
         heightCol.setCellValueFactory(new PropertyValueFactory<>("height"));
         widthCol.setCellValueFactory(new PropertyValueFactory<>("width"));
         areaCol.setCellValueFactory(new PropertyValueFactory<>("area"));
+
+        // Center align for all columns
+    heightCol.setStyle("-fx-alignment: CENTER;");
+    widthCol.setStyle("-fx-alignment: CENTER;");
+    areaCol.setStyle("-fx-alignment: CENTER;");
+        
         loadTable();
     }
 
@@ -79,3 +85,4 @@ public class AreaController {
         alert.showAndWait();
     }
 }
+
